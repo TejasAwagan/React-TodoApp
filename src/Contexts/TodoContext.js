@@ -1,6 +1,6 @@
 import { useContext, createContext } from "react";
 
-const TodoContext = createContext({
+export const TodoContext = createContext({
   todos: [
     {
       id: 1,
